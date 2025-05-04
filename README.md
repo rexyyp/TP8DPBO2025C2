@@ -56,7 +56,7 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ### Jurusan
 
-[![Video Jurusan](Screenshot/jurusan.mp4)](https://github.com/rexyyp/Screenshot/jurusan.mp4)
+![Dokumentasi](Screenshot/jurusan.gif)
 
 ### Fakultas
 
