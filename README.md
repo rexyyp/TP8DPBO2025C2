@@ -56,7 +56,7 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ### Jurusan
 
-![Dokumentasi](Screenshot/jurusan.mp4)
+[![Video Jurusan](Screenshot/jurusan.mp4)](https://github.com/username/repo/blob/main/Screenshot/jurusan.mp4)
 
 ### Fakultas
 
