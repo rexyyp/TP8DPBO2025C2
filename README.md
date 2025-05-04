@@ -52,7 +52,7 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ### Mahasiswa / Home
 
-![Dokumentasi](Screenshot/mahasiswa.mp4)
+![Dokumentasi](Screenshot/mahasiswa.gif)
 
 ### Jurusan
 
@@ -60,4 +60,4 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ### Fakultas
 
-![Dokumentasi](Screenshot/fakultas.mp4)
+![Dokumentasi](Screenshot/fakultas.gif)
