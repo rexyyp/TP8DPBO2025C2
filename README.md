@@ -10,35 +10,37 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ### Database `db_tp8`
 
-
 #### Tabel `Fakultas`
-| Kolom          | Tipe                      | Deskripsi                               |
-| -------------- | ------------------------- | --------------------------------------- |
-| id             | INT (AUTO\_INCREMENT, PK) | Identifikasi unik untuk setiap fakultas |
-| nama\_fakultas | VARCHAR(100)              | Nama lengkap fakultas                   |
+
+| Kolom         | Tipe                     | Deskripsi                               |
+| ------------- | ------------------------ | --------------------------------------- |
+| id            | INT (AUTO_INCREMENT, PK) | Identifikasi unik untuk setiap fakultas |
+| nama_fakultas | VARCHAR(100)             | Nama lengkap fakultas                   |
 
 #### Tabel `Mahasiswa`
-| Kolom         | Tipe                      | Deskripsi                                       |
-| ------------- | ------------------------- | ----------------------------------------------- |
-| id            | INT (AUTO\_INCREMENT, PK) | Identifikasi unik untuk setiap jurusan          |
-| nama\_jurusan | VARCHAR(100)              | Nama lengkap jurusan                            |
-| id\_fakultas  | INT (FK ke `fakultas.id`) | Menunjukkan jurusan ini berada di fakultas mana |
 
+| Kolom        | Tipe                      | Deskripsi                                       |
+| ------------ | ------------------------- | ----------------------------------------------- |
+| id           | INT (AUTO_INCREMENT, PK)  | Identifikasi unik untuk setiap jurusan          |
+| nama_jurusan | VARCHAR(100)              | Nama lengkap jurusan                            |
+| id_fakultas  | INT (FK ke `fakultas.id`) | Menunjukkan jurusan ini berada di fakultas mana |
 
 #### Tabel `Jurusan`
-| Kolom           | Tipe                     | Deskripsi                                         |
-| --------------- | ------------------------ | ------------------------------------------------- |
-| nim             | VARCHAR(20), PK          | Nomor Induk Mahasiswa (unik untuk tiap mahasiswa) |
-| nama\_mahasiswa | VARCHAR(100)             | Nama lengkap mahasiswa                            |
-| telepon         | VARCHAR(15)              | Nomor telepon mahasiswa (opsional)                |
-| tanggal\_masuk  | DATE                     | Tanggal mahasiswa mulai terdaftar                 |
-| id\_jurusan     | INT (FK ke `jurusan.id`) | ID jurusan tempat mahasiswa terdaftar             |
 
+| Kolom          | Tipe                     | Deskripsi                                         |
+| -------------- | ------------------------ | ------------------------------------------------- |
+| nim            | VARCHAR(20), PK          | Nomor Induk Mahasiswa (unik untuk tiap mahasiswa) |
+| nama_mahasiswa | VARCHAR(100)             | Nama lengkap mahasiswa                            |
+| telepon        | VARCHAR(15)              | Nomor telepon mahasiswa (opsional)                |
+| tanggal_masuk  | DATE                     | Tanggal mahasiswa mulai terdaftar                 |
+| id_jurusan     | INT (FK ke `jurusan.id`) | ID jurusan tempat mahasiswa terdaftar             |
 
 ## Struktur File
+
 ![Dokumentasi](Screenshot/Struktur_File.png)
 
 ## Alur Program
+
 1. Halaman utama menampilkan daftar mahasiswa dari database dalam bentuk tabel.
 2. Data ditampilkan melalui class View yang menerima input dari Controller.
 3. Saat pengguna menambahkan atau mengedit data, form akan mengirimkan data ke file PHP yang bertindak sebagai Controller.
@@ -48,11 +50,14 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 ## Dokumentasi
 
-### Mahasiswa / Home 
-![Dokumentasi](Screenshot/mahasiswa.gif)
+### Mahasiswa / Home
+
+![Dokumentasi](Screenshot/mahasiswa.mp4)
 
 ### Jurusan
-![Dokumentasi](Screenshot/jurusan.gif)
+
+![Dokumentasi](Screenshot/jurusan.mp4)
 
 ### Fakultas
-![Dokumentasi](Screenshot/mahasiswa.gif)
+
+![Dokumentasi](Screenshot/fakultas.mp4)
