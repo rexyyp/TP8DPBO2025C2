@@ -36,7 +36,7 @@ Program ini menggunakan pola MVC (Model-View-Controller) sederhana. Data dari da
 
 
 ## Struktur File
-![Dokumentasi](Screenshot/Struktur_file.png)
+![Dokumentasi](Screenshot/Struktur_File.png)
 
 ## Alur Program
 1. Halaman utama menampilkan daftar mahasiswa dari database dalam bentuk tabel.
